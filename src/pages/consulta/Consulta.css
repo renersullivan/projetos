@@ -75,6 +75,8 @@ label {
 .container {
   width:100%;
   display: block;
+
+  
   position: relative;
   padding-left: 35px;
   margin-bottom: 70px;
