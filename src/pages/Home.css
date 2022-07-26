@@ -6,8 +6,9 @@
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: url("https://nubank.com.br/images-cms/1650479239-woman-holding-card-smiling-2-lg-3x.jpg?w=1152&dpr=3&auto=compress&fm=webp")center top;
-  background-size:cover;
+  background: url("https://nubank.com.br/images-cms/1650479239-woman-holding-card-smiling-2-lg-3x.jpg?w=1152&dpr=3&auto=compress&fm=webp")
+    center top;
+  background-size: cover;
 }
 
 .title {
