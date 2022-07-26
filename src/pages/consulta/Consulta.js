@@ -8,19 +8,19 @@ function Consulta(){
             </div>
            
            <div className='container-right'>
-                <div className='logo-nubank'><img src='/home/rener/Dev/PROJETOS/nunbank/website/nunbank/public/kisspng-nubank-credit-card-financial-crisis-of-200708-brazil-png-5b19b73c3f6738.9154852715284119642597.png' alt="Logo NubanK."/></div>
+                
                 <div className='btn-x'>X</div>
                 <div className='input-form'>
                     <label for="User1">CPF</label>
-                    <input className='input-card' type="text" id="User1" required placeholder='Digite seu CPF' />
+                    <input className='input-card' type="text" id="User1" required  />
                     <label for="User2">Nome Completo</label>
-                    <input className='input-card' type="text" id="User2" required  placeholder='Nome e Sobrenone'/>
+                    <input className='input-card' type="text" id="User2" required />
                     <label for="User3">Celular</label>
-                    <input className='input-card' type="tel" id="User3"  required placeholder="(XX) XXXXX-XXXX"/>
+                    <input className='input-card' type="tel" id="User3"  required />
                     <label for="User4">E-mail</label>
-                    <input className='input-card' type="email" id="User4"  required placeholder="Seuemail@dominio.com "/>
+                    <input className='input-card' type="email" id="User4"  required />
                     <label for="User5">Confirmação de e-mail</label>
-                    <input className='input-card' type="email" id="User5"  required placeholder="Seuemail@dominio.com " />
+                    <input className='input-card' type="email" id="User5"  required  />
                 </div>
                 
                 <div className='checkbox-form'>
