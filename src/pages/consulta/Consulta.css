@@ -5,7 +5,6 @@
   flex-direction: row;
   justify-content: space-between;
   border: 1px solid red;
-  height: 1200px;
   width: 1343px;
 }
 .container-left {
@@ -23,10 +22,10 @@
 }
 .container-right {
   display: flex;
-  width: 50%;
+  width: 100%;
   height: auto;
   flex-direction: column;
-  padding: 83px 12px 21px 56px;
+  padding: 83px 76px 21px 116px;
 }
 .btn-x {
   padding: 16px;
@@ -46,8 +45,15 @@
 }
 .btn-x:hover {
   background-color: #cf8cfc;
-  color:black;
+  color: black;
   transition: all 0.4s;
+}
+.input-form {
+  font-size: 1rem;
+  max-width: 100%;
+  padding: 1rem 0px;
+  position: relative;
+  min-height: 96px;
 }
 .input-card {
   width: 70%;
@@ -58,19 +64,20 @@
   flex-direction: column;
   margin-left: 0%;
   font-size: 12px;
-  
 }
-label{
+label {
   font-size: 15px;
+  color: #585858;
 }
 .input-form {
   margin-bottom: 70px;
 }
 .container {
+  width:100%;
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
+  margin-bottom: 70px;
   cursor: pointer;
   font-size: 15px;
   -webkit-user-select: none;
@@ -131,4 +138,5 @@ label{
   border-top: 60px;
   border-radius: 50px;
   height: 50px;
+  cursor: pointer;
 }
