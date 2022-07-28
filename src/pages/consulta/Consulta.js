@@ -36,7 +36,7 @@ function Consulta(){
                         
                 </div>
 
-                <div className='btn-submit'>Continar </div>
+                <div className='btn-submit'>Enviar </div>
 
                 
             </div>
