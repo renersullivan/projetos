@@ -4,7 +4,7 @@ function Home(){
              
         <div className='home'>   
             <div className='logo-nubank'>
-                
+                <img src='./public/logo192.png'/>
             </div>
             <div className='container-home'>
                 <div className="title">Cartão de crédito com anuidade zero. Conta digital prática e sem custos.</div>
