@@ -32,7 +32,7 @@
   position: absolute;
   z-index: 2;
   top: 15px;
-  left: 1270px;
+  left: 1182px;
   display: flex;
   border-radius: 50%;
   width: 35px;
@@ -138,9 +138,22 @@ label {
   border-radius: 50px;
   height: 50px;
   cursor: pointer;
-  border:none;
+  border: none;
 }
 .btn-submit:hover {
   background: rgb(130, 10, 209);
   transition: all 0.4s;
+}
+
+@media screen and (max-width :768px) {
+  .consulta {
+    flex-direction: column;
+  }
+  .btn-x {
+    right: 0;
+    left: 0;
+  }
+  .container-left{
+    display: none;
+  }
 }
