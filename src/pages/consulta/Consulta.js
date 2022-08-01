@@ -10,6 +10,11 @@ function Consulta(){
            <div className='container-right'>
                 
                 <div className='btn-x'>X</div>
+                <div className='titulo-responsivo'>
+                    <p>
+                        <h3>Agora complete abaixo para pedir sua conta e cartão de crédito</h3>
+                    </p>
+                </div>
                 <div className='input-form'>
                     <label for="User1">CPF</label>
                     <input className='input-card' type="text" id="User1" required  />
