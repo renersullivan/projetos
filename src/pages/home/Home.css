@@ -93,7 +93,5 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home {
-    background: rgb(130, 10, 209);
-  }
+
 }
