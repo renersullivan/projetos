@@ -19,8 +19,9 @@
 .title {
   font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
     "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 40px;
+  font-size: 38px;
   color: rgb(17, 17, 17);
+  font-weight: bolder;
 }
 
 .container-right {
