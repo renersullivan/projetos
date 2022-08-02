@@ -18,7 +18,7 @@ function Consulta(){
                 <div className='input-form'>
                     <label for="User1">CPF</label>
                     <input className='input-card' type="text" id="User1" required  />
-                    <label for="User2">Nome Completo</label>
+                    <label for="User2">Nome Completo.</label>
                     <input className='input-card' type="text" id="User2" required />
                     <label for="User3">Celular</label>
                     <input className='input-card' type="tel" id="User3"  required />
